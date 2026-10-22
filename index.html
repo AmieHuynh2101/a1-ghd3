@@ -27,7 +27,13 @@
     .attr("cx", 450)
     .attr("cy",100)
     .attr("r",45)
-    .attr("fill","lightblue");
+    .attr("fill","lightblue")
+    .on("mouseover", function(){
+      d3.select(this).attr("fill", "lightgreen");
+    })
+    .on("mouseout", function(){
+      d3.select(this).attr("fill", "lightblue");
+    });
     // Add Lines
     svg.append("line")
     .attr("x1", 20)

@@ -40,6 +40,33 @@
     svg.append("polygon")
     .attr("points", "160, 170, 260, 70, 360, 170")
     .attr("fill", "plum");
+    // Add small rectangle for Door
+    svg.append("rect")
+    .attr("x", 240)
+    .attr("y", 290)
+    .attr("width", 45)
+    .attr("height", 90)
+    .attr("fill", "brown");
+    // Add small rectangle door left window
+    svg.append("rect")
+    .attr("x", 200)
+    .attr("y", 210)
+    .attr("width", 40)
+    .attr("height", 40)
+    .attr("fill", "lightblue");
+    // Add small rectangle for right window
+    svg.append("rect")
+    .attr("x", 280)
+    .attr("y", 210)
+    .attr("width", 40)
+    .attr("height", 40)
+    .attr("fill", "lightblue");
+    // Add small circle for doorknob
+    svg.append("circle")
+    .attr("cx", 275)
+    .attr("cy", 350)
+    .attr("r", 4)
+    .attr("fill", "lightgreen")
   </script>
 </body>
 </html>

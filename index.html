@@ -10,10 +10,36 @@
   <script>
     console.log("d3 version", d3.version); // test that d3 loaded
     // Add an SVG
+    const svg = d3.select("#container")
+    .append("svg")
+    .attr("width", 600)
+    .attr("height", 450)
+    .style("background-color", "green");
     // Add Rectangles
+    svg.append("rect")
+    .attr("x", 180)
+    .attr("y", 170)
+    .attr("width", 160)
+    .attr("height", 210)
+    .attr("fill", "red");
     // Add Circles
+    svg.append("circle")
+    .attr("cx", 450)
+    .attr("cy",100)
+    .attr("r",45)
+    .attr("fill","lightblue);
     // Add Lines
+    svg.append("line")
+    .attr("x1", 20)
+    .attr("y1", 380)
+    .attr("x2", 580)
+    .attr("y2", 380)
+    .attr("stroke", "blue")
+    .attr("stroke-width", 5);
     // Add Polygons
+    svg.append("polygon")
+    .attr("points", "160, 170, 260, 70, 360, 170")
+    .attr("file", "purple");
   </script>
 </body>
 </html>

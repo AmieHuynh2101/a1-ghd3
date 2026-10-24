@@ -1,26 +1,13 @@
 Assignment 1 - Hello World: GitHub and d3  
 ===
-
-This is a starting project to make sure you can write and host a webpage that generates graphics using d3. 
-
-The primary goal is to be able to generate graphics primitives (circles, rectangles, lines, polygons) at different locations on the screen with different colors. 
-
-The secondary goals are to 1) introduce you to coding on GitHub, including publishing your visualizations with GitHub Pages, and 2) teach you how to host your web-based visualizations on a web-server, which opens up a world of possibilities.
-
-You may write everything from scratch, or start with demo programs from books or the web. 
-If you do start with code that you found on any project, you **must identify** the source of the code in your README and, most importantly, make non-trivial changes to the code to make it your own so you really learn what you're doing.
-For AI-generated code, please see the policy in the syllabus.
-
-For example, you could download one of the d3.js examples, read it through so you understand what it's doing, and then change the appearance of the graphical output to use different color schemes, different primitive shapes, different layouts of the primitives, and so on.
-
-Resources
+Project Description 
+For this assignment, I used five different SVG shapesL rectangles, circles, lines, polygons, and ellipses. The visualization includes a red house with a plum roof, two lightblue windows, a brown doorm a doorknob, and a chimney. Moreover, I added a flower, a bush, and a light blue circle moon that changes color when the user hovers over it
 ---
+GitHub Pages Link
+https://amiehuynh2101.github.io/a1-ghd3/
 
-If you need a JavaScript/HTML/CSS refresher, see [MDN's Learn web development](https://developer.mozilla.org/en-US/docs/Learn_web_development), [Codecademy's Introduction to JavaScript](https://www.codecademy.com/learn/introduction-to-javascript), or find one of your choosing on the web.
+Screenshot
 
-If you need a Git/GitHub refresher, some possible resources include GitHub's [Hello World](https://docs.github.com/en/get-started/using-github/hello-world), [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow), and [Fork a repository](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo) guides, [GitHub Skills](https://skills.github.com/), and [Learn Git Branching](https://learngitbranching.js.org/).
-
-Requirements
 ---
 
 1. Your project should contain at least four kinds of graphics primitives (circles, rectangles, lines, polygons) in different colors. 

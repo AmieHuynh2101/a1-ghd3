@@ -7,7 +7,7 @@ GitHub Pages Link
 https://amiehuynh2101.github.io/a1-ghd3/
 
 Screenshot
----<img width="1920" height="1200" alt="Screenshot (553)" src="https://github.com/user-attachments/assets/d0f1f11e-63bd-41cc-90c2-9e224694e46e" />
+<img width="1541" height="908" alt="Screenshot (553)" src="https://github.com/user-attachments/assets/6876d9ec-e510-44ea-b2ff-4ee08fe2a647" />
 
 ---
 Technical Achievements

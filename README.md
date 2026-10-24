@@ -2,73 +2,31 @@ Assignment 1 - Hello World: GitHub and d3
 ===
 Project Description 
 For this assignment, I used five different SVG shapesL rectangles, circles, lines, polygons, and ellipses. The visualization includes a red house with a plum roof, two lightblue windows, a brown doorm a doorknob, and a chimney. Moreover, I added a flower, a bush, and a light blue circle moon that changes color when the user hovers over it
----
+
 GitHub Pages Link
 https://amiehuynh2101.github.io/a1-ghd3/
 
 Screenshot
+---<img width="1920" height="1200" alt="Screenshot (553)" src="https://github.com/user-attachments/assets/d0f1f11e-63bd-41cc-90c2-9e224694e46e" />
 
 ---
+Technical Achievements
+Tech1: Additional Shapes
+I used five different SVG shapes types instead of the four required shapes. In addition to rectangles, circles, lines, and polygons, I used an allipse to create a bush. I also combined multiple shapes to create detailed objects, such as windows, door, chimney, doorknob, and flower.
 
-1. Your project should contain at least four kinds of graphics primitives (circles, rectangles, lines, polygons) in different colors. 
-2. Your document should identify the sources of the code if you start with code that you found. 
-3. Your code should be forked from the GitHub repo and published with GitHub Pages. See the "GitHub Details" section below for detailed instructions on how to do this.
+Tech3: Hover Interaction
+I implemented a hover interaction using mouseover and mouseout. When the user moves their mouse over the light blue circle, its color changes to light green. When the mouse moves away, the circle returns to light blue
 
-GitHub Details
 ---
+Design Achievements
+Design1: Colorful and Interactive
+I used different colors to make the visualization colorful and easy to understand. The red house, plum roof, light blue windows, and brown door help distinguish different parts of the scene. The hover interaction is added to make the visualization more interactive
 
-- Fork the GitHub Repository for Assignment 1. You now have a copy associated with your username.
-- Make changes to index.html to fulfill the project requirements. 
-- Turn on GitHub Pages for your fork: Settings → Pages → Build and deployment → Source: "Deploy from a branch", Branch: `main`, folder `/ (root)`. See [Configuring a publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) if you need help. Spend some time learning this if you're new!
-- Edit the README.md with a link to your GitHub Pages site "https://YourUsernameGoesHere.github.io/a1-ghd3/".
+Design2: Beyond Requirements
+Instead of displaying four seperate shapes, I combined multiple SVG elements to create a house and garden scene. I added detailed like windows, chimney, doorknob, flower, and bush to make the visualization more detailed/
 
-Submission Details
 ---
-- To submit, make a [Pull Request](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request-from-a-fork) on the original repository.
-- Note: name your pull request using the following scheme: 
-```
-a1-your Gh username-your first name-your lastname
+Code Sources and Acknowledgement
+Assignment starter code: https://github.com/cs4804-26b/a1-ghd3
 
-```
-
-Vis Details
----
-
-For this project you should use d3.js. Later projects will use other tools (e.g. Python libraries), but d3 is the industry standard for now.
-You can learn from examples on the [d3.js](https://d3js.org) site or start from scratch.
-
-See [Getting started](https://d3js.org/getting-started) for ways to load d3. To preview your page locally, open index.html in Chrome, or run `python3 -m http.server` in the repo folder and visit http://localhost:8000.
-
-Creative solutions are welcome! In the past I've seen recreations of paintings, interactives, and more.
-
-Please go beyond the minimum requirements of this project-- we've made it SUPER basic so you can explore, or fill in any gaps in your understanding of web coding.
-Experiment with other aspects of the [d3 API](https://d3js.org/api) and the examples in the [D3 gallery](https://observablehq.com/@d3/gallery). 
-Try making the elements interactive, for example, or animate them.
-
-Grading
----
-
-Grades are on a 120 point scale. 
-96 points will be graded for functionality: the program does what the assignment requests with an informative README. 
-
-We will use Google Chrome to view submissions. 
-Be sure to test your code there.
-
-Below are some, but not necessarily all, of the key points we will consider during grading:
-
-- Circles and Rectangles  
-- Lines  
-- Paths  
-- Different colors  
-- README Quality
-    - A description of what you have created. 1-2 screenshots are recommended for the README.  
-    - A working link to the hosted files (your GitHub Pages url)  
-    - Section for Technical and Design Achievements
-
-Technical Achievement Description -- 12  
-Design Achievement Description -- 12
-
-Remember, it is up to *you* to define what constitutes a technical and design achievements.
-Be ambitious as these are designed to allow you to shape your learning.
-These are the only way to move from B to A territory.
 

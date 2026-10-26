@@ -11,6 +11,7 @@ Screenshot
 
 ---
 Technical Achievements
+
 Tech1: Additional Shapes
 I used five different SVG shapes types instead of the four required shapes. In addition to rectangles, circles, lines, and polygons, I used an allipse to create a bush. I also combined multiple shapes to create detailed objects, such as windows, door, chimney, doorknob, and flower.
 
@@ -19,6 +20,7 @@ I implemented a hover interaction using mouseover and mouseout. When the user mo
 
 ---
 Design Achievements
+
 Design1: Colorful and Interactive
 I used different colors to make the visualization colorful and easy to understand. The red house, plum roof, light blue windows, and brown door help distinguish different parts of the scene. The hover interaction is added to make the visualization more interactive
 
